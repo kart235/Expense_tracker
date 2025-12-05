@@ -1,0 +1,109 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    transition: background 0.3s, color 0.3s;
+}
+
+.container {
+    width: 400px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.container2 {
+    width: 350px;
+    margin: 80px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    /* box-shadow: 0 0 10px rgba(0,0,0,0.1); */
+}
+
+h2, h3 {
+    margin-bottom: 15px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+}
+
+button {
+    width: 100%;
+    margin-top: 12px;
+    padding: 10px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button2 {
+    width: 10%;
+    margin-top: -10px;
+    padding: 11px;
+    background: #f3f6f6;
+    color: rgb(15, 14, 14);
+    border: none;
+    border-radius: 10px;
+    float: right;
+}
+
+/* Dark mode styles */
+.dark-mode {
+    background: #181818 !important;
+    color: #f2f2f2 !important;
+}
+.dark-mode .container,
+.dark-mode .container2 {
+    background: #232323 !important;
+    color: #f2f2f2 !important;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.dark-mode input {
+    background: #333 !important;
+    color: #f2f2f2 !important;
+    border: 1px solid #444;
+}
+.dark-mode button {
+    background: #444 !important;
+    color: #f2f2f2 !important;
+}
+.dark-mode ul li {
+    background: #333 !important;
+    color: #f2f2f2 !important;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+button2:hover {
+    background: #f03434;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+ul li {
+    margin: 8px 0;
+    padding: 8px;
+    background: #eee;
+    border-radius: 5px;
+}
+
+ul li button {
+    float: right;
+    background: red;
+}
